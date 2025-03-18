@@ -1,7 +1,8 @@
-import start from "../../assets/images/start.jpg"
+import start from "../../assets/images/start.webp"
 import a1 from "../../assets/images/a1.png"
 import a2 from "../../assets/images/a2.png"
 import a3 from "../../assets/images/a3.png"
+import a4 from "../../assets/images/a4.png"
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer"
 import { AddressIcon, LocationIcon, PhoneIcon } from "../../assets"
@@ -19,7 +20,7 @@ function Contact() {
               Contact Us
             </h1>
             <p className="text-base text-white md:text-xl text-center pt-4">
-              We'd love to hear from you! Whether you have questions about our services or need tailored consulting solutions, our team is ready to assist.
+              We’d love to discuss how PHB Consulting can support your organization’s transformation. Our team is here to assist you with customized consulting and staffing solutions that drive measurable impact.
             </p>
           </div>
         </section>
@@ -27,12 +28,14 @@ function Contact() {
         <section className="mt-11 md:mt-20">
           <div className="wrapper">
             <div>
-              <p className="text-base text-center text-gray-500">We have operations across the world, with offices in the United States, UK, and Canada.</p>
+              <p className="text-base text-center text-gray-500">
+                We have operations across the world, with offices in the United States, UK, and Canada.
+              </p>
             </div>
             <div className="mx-auto w-full md:w-1/2 flex gap-2 items-center flex-col mt-4">
               <PhoneIcon />
               <p className="text-black text-base font-semibold">Phone</p>
-              <p className="text-gray-600 text-base mb-6 md:mb-0">+1 (469) 746 1037</p>
+              <p className="text-gray-600 text-base mb-6 md:mb-0">+1 (651) 413 3894</p>
             </div>
             <hr className="border-mint-500 border-2 my-5" />
             <div className="">
@@ -40,7 +43,7 @@ function Contact() {
                 <AddressIcon />
                 <p className="text-black text-base font-semibold">Address</p>
               </div>
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-4">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-4">
                 <div className="shadow-custom rounded-2xl p-4">
                   <div className="flex items-center gap-2">
                     <div className="rounded-full flex items-center justify-center p-1 border border-mint-500">
@@ -49,7 +52,7 @@ function Contact() {
                     <div className="text-black font-semibold text-base">Global Headquarters</div>
                   </div>
                   <div className="grid grid-cols-2 mt-3 gap-5">
-                    <p className="text-gray-600 text-base">8117 Preston Road, Suite 300, Dallas, TX 75225.</p>
+                    <p className="text-gray-600 text-base">33 South Sixth Street, Suite 4900, Minneapolis, MN 55402, United States</p>
                     <img src={a1} className="w-full aspect-video rounded-2xl" alt="Media" />
                   </div>
                 </div>
@@ -59,10 +62,12 @@ function Contact() {
                     <div className="rounded-full flex items-center justify-center p-1 border border-mint-500">
                       <LocationIcon />
                     </div>
-                    <div className="text-black font-semibold text-base">West Coast US Office</div>
+                    <div className="text-black font-semibold text-base">Midwest & East Coast US Office</div>
                   </div>
                   <div className="grid grid-cols-2 mt-3 gap-5">
-                    <p className="text-gray-600 text-base">11726 San Vicente Boulevard, Suite 550, Los Angeles, CA 90049.</p>
+                    <p className="text-gray-600 text-base">
+                      230 S LaSalle, Suite 10-500, Chicago, IL 60604, United States
+                    </p>
                     <img src={a2} className="w-full aspect-video rounded-2xl" alt="Media" />
                   </div>
                 </div>
@@ -72,11 +77,28 @@ function Contact() {
                     <div className="rounded-full flex items-center justify-center p-1 border border-mint-500">
                       <LocationIcon />
                     </div>
-                    <div className="text-black font-semibold text-base">East Coast US Office</div>
+                    <div className="text-black font-semibold text-base">UK Office</div>
                   </div>
                   <div className="grid grid-cols-2 mt-3 gap-5">
-                    <p className="text-gray-600 text-base">801 Brickell Avenue, Suite 900, Miami, FL 33131.</p>
+                    <p className="text-gray-600 text-base">
+                      Moor House, 120 London Wall, London EC2Y 5ET, United Kingdom
+                    </p>
                     <img src={a3} className="w-full aspect-video rounded-2xl" alt="Media" />
+                  </div>
+                </div>
+
+                <div className="shadow-custom rounded-2xl p-4">
+                  <div className="flex items-center gap-2">
+                    <div className="rounded-full flex items-center justify-center p-1 border border-mint-500">
+                      <LocationIcon />
+                    </div>
+                    <div className="text-black font-semibold text-base">Canada Office</div>
+                  </div>
+                  <div className="grid grid-cols-2 mt-3 gap-5">
+                    <p className="text-gray-600 text-base">
+                      100 University Ave, 8th Floor, Toronto, ON M5J 2Y1, Canada
+                    </p>
+                    <img src={a4} className="w-full aspect-video rounded-2xl" alt="Media" />
                   </div>
                 </div>
 
@@ -89,26 +111,23 @@ function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div className="grid-item px-8">
               <div className="text-center mb-3">
-                <p className="font-semibold text-sm text-gray-500 uppercase">Start Your Journey</p>
+                <p className="font-semibold text-sm text-gray-500 uppercase">Begin Your Journey</p>
                 <h1 className="text-2xl md:text-4xl mt-1 font-bold mb-4 text-blue-550">How to Get Started</h1>
               </div>
               <p className="text-base text-gray-600">
-                We understand that every business challenge is unique, which is why we take a personalized approach to every consultation. Reach out to us today for a free initial consultation, where we will:
+                Every organization has unique challenges. We take a personalized approach to each engagement, ensuring that we understand your specific needs and goals.
               </p>
               <ul className="text-base text-gray-600 list-disc ml-9 my-4">
                 <li>
-                  Assess your current business needs and challenges.
+                  Reach out for an initial consultation.
                 </li>
                 <li>
-                  Provide insights into potential solutions tailored to your industry.
+                  Discuss how our combination of data, behavioral insights, and technical expertise can help solve your challenges.
                 </li>
                 <li>
-                  Discuss how our consulting and staffing services can support your goals.
+                  Let us help you craft the solutions that will propel your organization forward.
                 </li>
               </ul>
-              <p className="text-base text-gray-600">
-                Our dedicated team is available to answer any questions and help guide you through our offerings. Whether you're looking for short-term staffing support, long-term strategic consulting, or AI-powered business solutions, we have the expertise to make an impact.
-              </p>
             </div>
 
             <div>

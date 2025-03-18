@@ -1,9 +1,9 @@
-import about from "../../assets/images/about.jpg"
+import about from "../../assets/images/about.webp"
 import industry from "../../assets/images/industry.svg"
 import approach from "../../assets/images/approach.svg"
 import record from "../../assets/images/record.svg"
 import client from "../../assets/images/client.svg"
-import ai from "../../assets/images/ai.jpg"
+import ai from "../../assets/images/ai.webp"
 import Header from "../../components/Header/Header";
 import TestimonialSection from "../../components/Testimonial/Testimonial"
 import ContinuousSlider from "../../components/ContinuousSlider/ContinuousSlider"
@@ -128,13 +128,12 @@ function Home() {
         <section className="unique-section mb-16 md:mb-24 py-11 md:py-16 bg-dim">
           <div className="wrapper">
             <div className="text-center">
-              <p className="font-semibold text-sm text-gray-500 uppercase">Partners in Growth</p>
+              <p className="font-semibold text-sm text-gray-500 uppercase">Global Network Partners</p>
               <h1 className="text-2xl md:text-4xl mt-1 mb-5 text-blue-550">Who We Work With</h1>
               <p className="text-base text-gray-500">
-                At Collier Consulting & Staffing, we collaborate with leading Fortune 500 companies across diverse industries, including technology, finance, healthcare, manufacturing, retail, and logistics. Our clients rely on us for cutting-edge consulting and staffing solutions designed to meet their unique business challenges. With deep industry expertise, we develop strategic frameworks that enhance efficiency, foster innovation, and drive sustainable growth.
+                At PHB, we collaborate with leading Fortune 500 companies across diverse industries, including technology, finance, healthcare, manufacturing, retail, and logistics. Our clients rely on us for cutting-edge consulting and staffing solutions designed to meet their unique business challenges. With deep industry expertise, we develop strategic frameworks that enhance efficiency, foster innovation, and drive sustainable growth.
                 <br /><br />
                 We take pride in partnering with industry leaders that set the benchmark for excellence. Some of the Fortune 500 companies we have worked with include Microsoft, JPMorgan Chase, General Motors, IBM, Walmart, Johnson & Johnson, Google, Amazon, Boeing, and Pfizer. Our reputation for delivering high-impact consulting and staffing solutions makes us the trusted partner for organizations seeking transformative growth and workforce success.
-
               </p>
             </div>
           </div>

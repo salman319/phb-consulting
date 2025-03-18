@@ -27,7 +27,7 @@ function Home() {
               Services
             </h1>
             <p className="text-base text-white md:text-xl text-center pt-4">
-              Our consulting and staffing solutions are designed to help businesses overcome challenges and achieve long-term success. We specialize in key areas that drive business transformation.
+              At PHB Consulting, our goal is to empower organizations by leveraging data analysis, behavioral insights, and technical expertise across key areas of business transformation. Each service we provide is designed to address specific challenges and opportunities in a data-informed and behavioral-sensitive way.
             </p>
           </div>
         </section>
@@ -36,22 +36,24 @@ function Home() {
         <section className="unique-section py-8 md:py-13">
           <div className="wrapper">
             <div className="text-center">
-              <p className="font-semibold text-sm text-gray-500 uppercase">Smart IT Solutions</p>
-              <h1 className="text-2xl md:text-4xl mt-1 mb-4 text-blue-550 font-bold">IT Consulting</h1>
+              <p className="font-semibold text-sm text-gray-500 uppercase">Solutions for Growth</p>
+              <h1 className="text-2xl md:text-4xl mt-1 mb-4 text-blue-550 font-bold">Management Consulting</h1>
               <p className="text-base text-gray-500">
-                We help businesses leverage technology for innovation and efficiency
+                Our consulting services focus on guiding your organization through business transformation by improving strategy, operations, and leadership.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
               <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
                 <div className="flex flex-col items-center gap-2">
                   <div className="bg-icon w-max rounded-full p-3 shadow-lg">
                     <img src={cloud} className="w-11" alt="Media" />
                   </div>
-                  <p className="text-base font-semibold text-gray-700 text-center">Digital Transformation & Cloud Strategy</p>
+                  <p className="text-base font-semibold text-gray-700 text-center">
+                    Data Analysis
+                  </p>
                   <p className="text-gray-500 text-base text-center">
-                    Modernizing IT infrastructure for scalability and agility.
+                    We analyze key business metrics and trends to understand your current operations and identify areas for improvement. This allows us to provide actionable insights based on real-time data.
                   </p>
                 </div>
               </div>
@@ -61,9 +63,11 @@ function Home() {
                   <div className="bg-icon w-max rounded-full p-3 shadow-lg">
                     <img src={cyber} className="w-11" alt="Media" />
                   </div>
-                  <p className="text-base font-semibold text-gray-700 text-center">Cybersecurity & Risk Management</p>
+                  <p className="text-base font-semibold text-gray-700 text-center">
+                    Behavioral Analysis
+                  </p>
                   <p className="text-gray-500 text-base text-center">
-                    Protecting sensitive data and mitigating threats.
+                    We assess organizational culture and leadership behaviors to ensure that the right incentives and leadership styles are in place for successful change.
                   </p>
                 </div>
               </div>
@@ -73,102 +77,19 @@ function Home() {
                   <div className="bg-icon w-max rounded-full p-3 shadow-lg">
                     <img src={robot} className="w-11" alt="Media" />
                   </div>
-                  <p className="text-base font-semibold text-gray-700 text-center">AI & Automation</p>
+                  <p className="text-base font-semibold text-gray-700 text-center">Technical Knowledge</p>
                   <p className="text-gray-500 text-base text-center">
-                    Implementing intelligent automation solutions to enhance productivity.
+                    Our consultants use the latest tools and technologies to optimize processes and implement scalable solutions that align with your organizational goals.
                   </p>
                 </div>
               </div>
 
-              <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
-                <div className="flex flex-col items-center gap-2">
-                  <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={staff} className="w-11" alt="Media" />
-                  </div>
-                  <p className="text-base font-semibold text-gray-700 text-center">IT Staffing</p>
-                  <p className="text-gray-500 text-base text-center">
-                    Providing skilled professionals for IT projects and long-term roles.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <p className="text-base text-center text-gray-500 mt-4 italic">"Collier&#39;s IT expertise helped us integrate AI into our operations, creating massive efficiency gains."
-            </p>
-            <p className="text-base text-center text-gray-500">
-              David Thompson, CIO, Walmart</p>
-          </div>
-        </section>
-
-        <section className="unique-section py-8 md:py-13">
-          <div className="wrapper">
-            <div className="text-center">
-              <p className="font-semibold text-sm text-gray-500 uppercase">Maximize Financial Success</p>
-              <h1 className="text-2xl md:text-4xl mt-1 font-bold mb-4 text-blue-550">Finance Consulting</h1>
-              <p className="text-base text-gray-500">
-                We provide financial strategies that enhance stability and profitability
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-              <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
-                <div className="flex flex-col items-center gap-2">
-                  <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={plan} className="w-11" alt="Media" />
-                  </div>
-                  <p className="text-base font-semibold text-gray-700 text-center">
-                    Financial Planning & Forecasting
-                  </p>
-                  <p className="text-gray-500 text-base text-center">
-                    Data-driven financial modeling for smarter decision-making.
-                  </p>
-                </div>
-              </div>
-
-              <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
-                <div className="flex flex-col items-center gap-2">
-                  <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={risk} className="w-11" alt="Media" />
-                  </div>
-                  <p className="text-base font-semibold text-gray-700 text-center">
-                    Risk & Compliance
-                  </p>
-                  <p className="text-gray-500 text-base text-center">
-                    Ensuring businesses adhere to regulations and minimize risks.
-                  </p>
-                </div>
-              </div>
-
-              <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
-                <div className="flex flex-col items-center gap-2">
-                  <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={cost} className="w-11" alt="Media" />
-                  </div>
-                  <p className="text-base font-semibold text-gray-700 text-center">
-                    Cost Optimization & Investment Strategy
-                  </p>
-                  <p className="text-gray-500 text-base text-center">
-                    Identifying cost-saving opportunities and investment growth.
-                  </p>
-                </div>
-              </div>
-
-              <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
-                <div className="flex flex-col items-center gap-2">
-                  <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={staff} className="w-11" alt="Media" />
-                  </div>
-                  <p className="text-base font-semibold text-gray-700 text-center">Finance Staffing</p>
-                  <p className="text-gray-500 text-base text-center">
-                    Matching organizations with top-tier financial professionals.
-                  </p>
-                </div>
-              </div>
             </div>
             <p className="text-base text-center text-gray-500 mt-4 italic">
-              "Their insights into financial forecasting positioned us for long-term success."
+              "PHB’s management consulting helped us streamline our operations by leveraging data insights and behavioral analysis. Their technical approach ensured we achieved long-term success."
             </p>
             <p className="text-base text-center text-gray-500">
-              Jennifer Martinez, CFO, Johnson & Johnson
+              Robert Harris, Director of Operations, Siemens
             </p>
           </div>
         </section>
@@ -176,24 +97,24 @@ function Home() {
         <section className="unique-section py-8 md:py-13">
           <div className="wrapper">
             <div className="text-center">
-              <p className="font-semibold text-sm text-gray-500 uppercase">Smart HR Solutions</p>
-              <h1 className="text-2xl md:text-4xl mt-1 font-bold mb-4 text-blue-550">HR Consulting</h1>
+              <p className="font-semibold text-sm text-gray-500 uppercase">Solutions Built Smartly</p>
+              <h1 className="text-2xl md:text-4xl mt-1 font-bold mb-4 text-blue-550">Technology Consulting</h1>
               <p className="text-base text-gray-500">
-                We help businesses build strong teams and improve workforce engagement
+                We help businesses optimize their technology infrastructure to support operational goals and improve business outcomes.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
               <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
                 <div className="flex flex-col items-center gap-2">
                   <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={plan} className="w-11" alt="Media" />
+                    <img src={cloud} className="w-11" alt="Media" />
                   </div>
                   <p className="text-base font-semibold text-gray-700 text-center">
-                    Talent Acquisition & Recruitment
+                    Data Analysis
                   </p>
                   <p className="text-gray-500 text-base text-center">
-                    Finding top talent for key roles.
+                    We use data analytics to evaluate your IT systems and identify opportunities for improvement. This ensures that your technology investments are optimized for efficiency.
                   </p>
                 </div>
               </div>
@@ -201,13 +122,13 @@ function Home() {
               <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
                 <div className="flex flex-col items-center gap-2">
                   <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={employee} className="w-11" alt="Media" />
+                    <img src={cyber} className="w-11" alt="Media" />
                   </div>
                   <p className="text-base font-semibold text-gray-700 text-center">
-                    Employee Engagement & Retention Strategies
+                    Behavioral Analysis
                   </p>
                   <p className="text-gray-500 text-base text-center">
-                    Enhancing workplace culture and satisfaction.
+                    Understanding how employees interact with technology allows us to design systems that enhance usability and productivity, promoting positive behavioral changes in your workforce.
                   </p>
                 </div>
               </div>
@@ -215,13 +136,50 @@ function Home() {
               <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
                 <div className="flex flex-col items-center gap-2">
                   <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={guidance} className="w-11" alt="Media" />
+                    <img src={robot} className="w-11" alt="Media" />
                   </div>
                   <p className="text-base font-semibold text-gray-700 text-center">
-                    Compliance & Labor Law Guidance
+                    Technical Knowledge
                   </p>
                   <p className="text-gray-500 text-base text-center">
-                    Ensuring adherence to employment laws and best practices.
+                    Our team brings deep technical expertise to implement modern IT solutions, from cloud computing and cybersecurity to AI-driven automation and data analytics tools.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <p className="text-base text-center text-gray-500 mt-4 italic">
+              "With PHB’s help, we utilized data and behavioral analysis to understand our system’s shortcomings and implement more effective technology solutions."
+            </p>
+            <p className="text-base text-center text-gray-500">
+              Jessica Clarke, Director of Financial Operations, Bank of America
+            </p>
+          </div>
+        </section>
+
+        <section className="unique-section py-8 md:py-13">
+          <div className="wrapper">
+            <div className="text-center">
+              <p className="font-semibold text-sm text-gray-500 uppercase">Data Fuels Growth</p>
+              <h1 className="text-2xl md:text-4xl mt-1 font-bold mb-4 text-blue-550">
+                Data Analytics & Business Intelligence
+              </h1>
+              <p className="text-base text-gray-500">
+                We help organizations use data to drive better business decisions by unlocking the full potential of their data assets.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+              <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
+                <div className="flex flex-col items-center gap-2">
+                  <div className="bg-icon w-max rounded-full p-3 shadow-lg">
+                    <img src={cloud} className="w-11" alt="Media" />
+                  </div>
+                  <p className="text-base font-semibold text-gray-700 text-center">
+                    Data Analysis
+                  </p>
+                  <p className="text-gray-500 text-base text-center">
+                    We extract meaningful insights from large datasets, helping businesses make data-driven decisions that improve efficiency, reduce costs, and maximize performance.
                   </p>
                 </div>
               </div>
@@ -229,20 +187,36 @@ function Home() {
               <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
                 <div className="flex flex-col items-center gap-2">
                   <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={training} className="w-11" alt="Media" />
+                    <img src={cyber} className="w-11" alt="Media" />
                   </div>
-                  <p className="text-base font-semibold text-gray-700 text-center">Leadership Development & Training</p>
+                  <p className="text-base font-semibold text-gray-700 text-center">
+                    Behavioral Analysis
+                  </p>
                   <p className="text-gray-500 text-base text-center">
-                    Strengthening leadership skills across organizations.
+                    We examine the behavior of both customers and employees to identify trends that can inform smarter business strategies, from marketing to HR.
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
+                <div className="flex flex-col items-center gap-2">
+                  <div className="bg-icon w-max rounded-full p-3 shadow-lg">
+                    <img src={robot} className="w-11" alt="Media" />
+                  </div>
+                  <p className="text-base font-semibold text-gray-700 text-center">
+                    Technical Knowledge
+                  </p>
+                  <p className="text-gray-500 text-base text-center">
+                    We use advanced data analytics tools and techniques to provide real-time insights, predictive models, and dashboards that give you a clear picture of your organization’s performance.
                   </p>
                 </div>
               </div>
             </div>
             <p className="text-base text-center text-gray-500 mt-4 italic">
-              "Collier&#39;s HR solutions transformed our hiring and retention strategies."
+              "PHB’s data analytics services enabled us to make more informed decisions, improving both our operational efficiency and market responsiveness."
             </p>
             <p className="text-base text-center text-gray-500">
-              Robert Chang, Chief People Officer, General Motors
+              Karen Mitchell, Director of Human Resources, Ford Motor Company
             </p>
           </div>
         </section>
@@ -250,24 +224,26 @@ function Home() {
         <section className="unique-section mb-11 py-8 md:py-13">
           <div className="wrapper">
             <div className="text-center">
-              <p className="font-semibold text-sm text-gray-500 uppercase">Strategy Meets Execution</p>
-              <h1 className="text-2xl md:text-4xl mt-1 font-bold mb-4 text-blue-550">Business Strategy & Operations</h1>
+              <p className="font-semibold text-sm text-gray-500 uppercase">Building Strong Teams</p>
+              <h1 className="text-2xl md:text-4xl mt-1 font-bold mb-4 text-blue-550">
+                Human Capital Strategy
+              </h1>
               <p className="text-base text-gray-500">
-                We refine business processes for sustainable growth:
+                Our human capital strategy services are designed to help organizations build stronger teams and foster a culture of engagement.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
               <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
                 <div className="flex flex-col items-center gap-2">
                   <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={process} className="w-11" alt="Media" />
+                    <img src={cloud} className="w-11" alt="Media" />
                   </div>
                   <p className="text-base font-semibold text-gray-700 text-center">
-                    Process Optimization & Lean Six Sigma
+                    Data Analysis
                   </p>
                   <p className="text-gray-500 text-base text-center">
-                    Reducing inefficiencies and boosting productivity.
+                    We leverage workforce data to identify trends in employee performance, engagement, and retention, helping to shape policies that attract and retain top talent.
                   </p>
                 </div>
               </div>
@@ -275,13 +251,13 @@ function Home() {
               <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
                 <div className="flex flex-col items-center gap-2">
                   <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={decision} className="w-11" alt="Media" />
+                    <img src={cyber} className="w-11" alt="Media" />
                   </div>
                   <p className="text-base font-semibold text-gray-700 text-center">
-                    Data-Driven Decision-Making
+                    Behavioral Analysis
                   </p>
                   <p className="text-gray-500 text-base text-center">
-                    Using analytics to improve operational strategies.
+                    By understanding the behavioral patterns of employees, we design strategies to improve engagement, motivation, and productivity across your organization.
                   </p>
                 </div>
               </div>
@@ -289,31 +265,24 @@ function Home() {
               <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
                 <div className="flex flex-col items-center gap-2">
                   <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={guidance} className="w-11" alt="Media" />
+                    <img src={robot} className="w-11" alt="Media" />
                   </div>
                   <p className="text-base font-semibold text-gray-700 text-center">
-                    Change Management & Business Transformation
+                    Technical Knowledge
                   </p>
                   <p className="text-gray-500 text-base text-center">
-                    Helping businesses adapt to new market demands.
+                    We utilize HR technology platforms to enhance recruitment, performance management, and talent development processes, creating a more streamlined and efficient workforce.
                   </p>
                 </div>
               </div>
 
-              <div className="grid-item rounded-lg p-4 shadow-custom bg-white">
-                <div className="flex flex-col items-center gap-2">
-                  <div className="bg-icon w-max rounded-full p-3 shadow-lg">
-                    <img src={training} className="w-11" alt="Media" />
-                  </div>
-                  <p className="text-base font-semibold text-gray-700 text-center">
-                    Executive Staffing
-                  </p>
-                  <p className="text-gray-500 text-base text-center">
-                    Providing C-suite leadership solutions for businesses in transition.
-                  </p>
-                </div>
-              </div>
             </div>
+            <p className="text-base text-center text-gray-500 mt-4 italic">
+              "The behavioral data provided by PHB helped us make better HR decisions, which resulted in improved employee retention and a stronger company culture."
+            </p>
+            <p className="text-base text-center text-gray-500">
+              Alex Moore, Director of IT Services, Dell Technologies
+            </p>
           </div>
         </section>
         <Footer />

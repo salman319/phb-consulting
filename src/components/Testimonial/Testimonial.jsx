@@ -6,14 +6,24 @@ import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
 const testimonials = [
   {
-    name: "Michael Reynolds, Senior VP, IBM",
-    image: "https://d1hbpr09pwz0sk.cloudfront.net/profile_pic/michael-reynolds-edbb5fb8.jpg",
-    text: "The team at Collier Consulting & Staffing has been instrumental in streamlining our operations and optimizing our workforce. Their deep industry knowledge and personalized approach set them apart.",
+    name: "Robert Harris, Director of Operations, Siemens",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQEayWq62cOGgg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1705267110090?e=2147483647&v=beta&t=qowsDb2v6hibH7wM0vZN7ohONcPaD8rmzGNosJ0OCoU",
+    text: "PHB Consulting's insights helped us understand the key drivers behind our team’s performance. Their data-driven approach and focus on behavioral trends allowed us to make smarter decisions and improve our internal processes.",
   },
   {
-    name: "Sarah Collins, CFO, JPMorgan Chase & Co",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQHXryUB3C0zuw/profile-displayphoto-shrink_200_200/B56ZS5nM5UHQAg-/0/1738280849490?e=2147483647&v=beta&t=O-MtpeWdI_Du736_Y03BLN-w57kop53yV4mgR_vlH40",
-    text: "Collier Consulting provided us with the right people and the right strategies at the right time. Their expertise in finance and IT helped us navigate a critical phase of growth.",
+    name: "Jessica Clarke, Director of Financial Operations, Bank of America",
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQGNNRn_D2Iv7w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517706994361?e=2147483647&v=beta&t=TX3FaJrEI7lhwsa2ltEfNm_zrOtgHa45Cti1ecIP7fk",
+    text: "The strategic approach provided by PHB Consulting allowed us to align our resources more effectively. Their blend of data analysis and technical expertise helped us navigate a critical period of change.",
+  },
+  {
+    name: "Karen Mitchell, Director of Human Resources, Ford Motor Company",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQFG7LGtjRWbcA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696091905001?e=2147483647&v=beta&t=k3zGPh4zEYtqMgK6u4NFt3fNEmGpPysrG8zBqsTD0kc",
+    text: "PHB’s HR consulting helped us identify the root causes of employee turnover and improve retention strategies. Their focus on behavioral data was key to creating a more engaged and productive workforce.",
+  },
+  {
+    name: "Alex Moore, Director of IT Services, Dell Technologies",
+    image: "https://cdn.prod.website-files.com/635154aa7d0a29a9ed041ba2/64ff673ecbf9ac171ea9e82f_AlexMoore-1000px%20(1)%20Medium.jpeg",
+    text: "By analyzing our data and combining it with technical solutions, PHB Consulting helped us identify operational inefficiencies that led to significant improvements in productivity.",
   },
 ];
 
@@ -21,8 +31,8 @@ export default function TestimonialSection() {
   return (
     <section className="">
       <div className="container mx-auto text-center">
-        <p className="font-semibold text-sm text-gray-400 uppercase">Powering Executive Decisions</p>
-        <h1 className="text-2xl md:text-4xl mt-1 mb-5 text-white">Executive Insights</h1>
+        <p className="font-semibold text-sm text-gray-400 uppercase">Leaders Share Insights</p>
+        <h1 className="text-2xl md:text-4xl mt-1 mb-5 text-white">Executive Testimonials</h1>
 
         <Swiper
           modules={[Pagination, Navigation, Autoplay]}
